@@ -1,10 +1,10 @@
 export class AttendanceList {
     constructor(list) {
-        this.list = list;
+        this.list = new Array();
     }
 
     add(name) {
-        this.getList.push(name);
+        this.list.push(name);
     }
 
     place(name, index) {
